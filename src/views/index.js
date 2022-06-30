@@ -1,5 +1,5 @@
 import Home from "./home";
-import Dashboards from "./dashboards"
+import Banksy from "./banksy"
 import Level from "./level";
 import Pipes from "./pipes";
 import PipeOne from "./pipe-one";
@@ -10,7 +10,7 @@ import PipeFive from "./pipe-five";
 import Downstream from "./downstream";
 export {  
     Home,
-    Dashboards, 
+    Banksy, 
     Level, 
     Pipes, 
     PipeOne,
