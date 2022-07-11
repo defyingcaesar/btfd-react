@@ -73,12 +73,6 @@ function Banksy() {
 
       {/* MAIN BANNER */}
       <div className="main-card-wrapper" style={{ backgroundImage: `url(${mainBgImage})` }}>
-        <div className="main-card__inner-wrapper">
-          {(active) ?
-            <button type="button" disabled={minting} onClick={mint} className="main-mint-btn">{(minting) ? 'Waiting confirmation.' : 'Mint'}</button>
-            : <button type="button" onClick={connect} className="main-mint-btn">Connect Wallet To Mint</button>
-          }
-        </div>
       </div>
 
       {/* BANKSY LIST */}
