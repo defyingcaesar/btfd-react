@@ -329,3 +329,23 @@ a:hover {
   justify-content: center; 
   align-items: center;
 }
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  flex: 33.33%;
+}
+
+@media (min-width: 1400px){
+  .content .container{
+      max-width: 1340px;
+  }
+}
+.content .container {
+    margin: 0px auto;
+    padding: 0px 30px;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./app.css";
 import { Route, Switch } from "react-router-dom";
-import { Home, Banksy } from "./views";
+import { Home, Banksy, Mary } from "./views";
 
 const App = () => {
 
@@ -12,6 +12,7 @@ const App = () => {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/banksy" component={Banksy} />
+          <Route path="/mary" component={Mary} />
         </Switch>
       </div>
     </div>
