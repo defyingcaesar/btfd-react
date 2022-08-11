@@ -8,7 +8,6 @@ function Banksy() {
   const { active, account, library, activate, deactivate } = useWeb3React()
 
   // Main Banner Image
-  const mainBgImage = "https://storageapi.fleek.co/jethrodw-team-bucket/btfd.svg";
  
   // Apes Image Data
   const notBanksy = [
@@ -69,12 +68,15 @@ function Banksy() {
   }
 
   return (
-    <div className="App">
+    <div className="App animated2 blurIn delayer0_5s">
 
       {/* MAIN BANNER */}
-      <div className="main-card-wrapper" style={{ backgroundImage: `url(${mainBgImage})` }}>
+      <div className="profileInfo">
+        <img className="logoImg" src="https://storageapi.fleek.co/jethrodw-team-bucket/btfd-cropped.png" alt="btfd-logo"></img>
+        <h1>BTFD COLLECTIVE</h1>
+        <a href="/" className="back-home">BACK TO MAIN PAGE</a>
+        <h2 className="banksySubHeading">NOT BANKSY // A LTD. COLLECTION OF 100 NFTS, MINT PRICE 0.05E</h2>
       </div>
-
       {/* BANKSY LIST */}
       <div className="cards-wrapper">
         {notBanksy.map((banksy, index) => (

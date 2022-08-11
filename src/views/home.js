@@ -10,7 +10,7 @@ const Home = () => {
         <div className="links">
           <a class="linkBtn " href="/mary">PISS MARY</a>
           <a class="linkBtn" href="/banksy">NOT BANKSY</a>
-          <a class="linkBtn" href="https://www.indianappguy.com/">COMING SOON, NGL</a>
+          <a class="linkBtn" href="/">COMING SOON, NGL</a>
         </div>
       </div>
     </div>
