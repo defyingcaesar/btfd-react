@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useWeb3React } from "@web3-react/core";
 import { injected } from "../wallet/Connector";
+import { LogoImg } from "../components";
 import web3 from "web3";
 
 function Banksy() {
@@ -72,7 +73,7 @@ function Banksy() {
 
       {/* MAIN BANNER */}
       <div className="profileInfo">
-        <img className="logoImg" src="https://storageapi.fleek.co/jethrodw-team-bucket/btfd-cropped.png" alt="btfd-logo"></img>
+        <LogoImg />
         <h1>BTFD COLLECTIVE</h1>
         <a href="/" className="back-home">BACK TO MAIN PAGE</a>
         <h2 className="banksySubHeading">NOT BANKSY // A LTD. COLLECTION OF 100 NFTS, MINT PRICE 0.05E</h2>
