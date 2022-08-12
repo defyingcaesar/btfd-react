@@ -156,6 +156,9 @@ select {
 .banksySubHeading{
   font-size: 1rem;
 }
+.btfdLogo {
+  font-size: 1rem;
+}
 
 a:active,
 a:focus,
