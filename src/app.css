@@ -360,3 +360,9 @@ a:hover {
     margin: 0px auto;
     padding: 0px 30px;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+  

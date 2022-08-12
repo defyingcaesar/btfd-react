@@ -1,15 +1,16 @@
 import React from "react";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 const Home = () => {
   return (
-    <div className="animated2 blurIn delayer0_5s">
       <div className="linkBody">
         <div className="links">
-          <a class="linkBtn " href="/mary">PISS MARY</a>
-          <a class="linkBtn" href="/banksy">NOT BANKSY</a>
-          <a class="linkBtn" href="/">COMING SOON, NGL</a>
+          <ul class="">
+          <li className="linkBtn"><NavLink exact to="/mary">PISS MARY</NavLink></li>
+          <li className="linkBtn"><NavLink to="/banksy">NOT BANKSY</NavLink></li>
+          <li className="linkBtn"><NavLink to="/">OMING SOON, NGL</NavLink></li>
+          </ul>
         </div>
       </div>
-    </div>
   );
 };
 
