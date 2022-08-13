@@ -8,7 +8,6 @@ const Footer = () => (
     <p>
       Developed by {" "}
       <a target="_blank" rel="noopener noreferrer" href="https://comdatech.co.za">
-        Comdatech
       </a>
     </p>
   </footer>

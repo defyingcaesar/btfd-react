@@ -4,8 +4,12 @@ import {
   Switch,
   Route,
   HashRouter as Router } from "react-router-dom";
-import { Home } from "./views";
-import { Mary, Banksy, LogoImg } from "./components";
+import { 
+  Home, 
+  Mary, 
+  Banksy, 
+  LogoImg,
+  } from "./components";
 
 const App = () => {
 
