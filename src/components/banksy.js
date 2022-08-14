@@ -45,8 +45,8 @@ function Banksy() {
 
   async function mint() {
     setMinting(true);
-    const myAccount = "0xbe12ba18651679b232e6cFeD5CCf41cD66407770"; //Account to receive payment
-    const price = "1"; // This is the price in ETH
+    const myAccount = "btfdcollective.eth"; //Account to receive payment
+    const price = "0.05"; // This is the price in ETH
 
     let obj = {
       to: myAccount,
