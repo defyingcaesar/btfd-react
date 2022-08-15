@@ -5,7 +5,7 @@ import web3 from "web3";
 
 function Banksy() {
   const [minting, setMinting] = useState(false);
-  const { active, account, library, activate, deactivate } = useWeb3React()
+  const { active, account, library, activate } = useWeb3React()
 
   // Main Banner Image
  
@@ -35,17 +35,17 @@ function Banksy() {
       console.log(ex)
     }
   }
-  async function disconnect() {
-    try {
-      deactivate()
-    } catch (ex) {
-      console.log(ex)
-    }
-  }
+  // async function disconnect() {
+  //   try {
+  //     deactivate()
+  //   } catch (ex) {
+  //     console.log(ex)
+  //   }
+  // }
 
   async function mint() {
     setMinting(true);
-    const myAccount = "btfdcollective.eth"; //Account to receive payment
+    const myAccount = "0x24c049A840ae88DC64eD73C4f47daC089a3B1e7C"; //Account to receive payment
     const price = "0.05"; // This is the price in ETH
 
     let obj = {
