@@ -11,7 +11,7 @@ const Mary = () => {
 			</div>
 			<div className="text-column">
 			  <h1>Piss Mary</h1>
-			  <p>*An homage to <a href="/">Piss Christ</a></p>
+			  <p>*An homage to <a className="piss" href="/">Piss Christ</a></p>
 			  <p>Unique deflationary NFT art series.<br />
 				Series No. 001.1 - BTFD Collective</p>
 			  <p><span id="number-minted">000</span> / <span id="number-available">500</span> minted</p>
